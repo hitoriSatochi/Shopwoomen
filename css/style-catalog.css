@@ -1,0 +1,324 @@
+*,
+*::before,
+*::after {
+    
+}
+
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+    padding: 0
+}
+
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 35px;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    margin: 0 0 0 0 ;
+}
+body {
+    background: url(../img/catalog/buble.jpg);
+    z-index: 1;
+
+
+}
+
+.boder_na
+{   
+    padding: 5px 5px;
+    border-bottom: 2px solid rgb(238, 115, 172);
+}
+.border_footer
+{
+    width: 1030px;
+    border-bottom: 2px solid rgb(238, 115, 172);
+    margin: 0 auto;
+}
+
+/* покраска меню */
+ul li.color:hover {
+    background-color: rgb(255, 172, 172);
+    border-radius: 15pc;
+    padding: 5px 5px ;
+}
+/* header */
+
+
+.logo_container {
+    width: 1029px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+
+}
+.logotip_container {
+    width: 174px;
+    height: 70px;
+    margin: 0 auto;
+    position: relative;
+}
+.logotip {
+    position: absolute;
+    z-index: 300;
+}
+.nav_logo {
+    width: 350px;
+    height: 30px;
+    position: relative;
+    float: right;
+}
+.nav_logo_raite {
+    display: flex;
+    margin-left: 40px;
+    
+}
+._navic {
+
+}
+
+.corzina {
+
+}
+.text_corzina {
+    color: #D4C6BD;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+
+.lich {
+    margin-left: 30px;
+}
+.lich_text {
+    color: #D4C6BD;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.navigation {
+}
+.container_navig {
+}
+/* naw-two */
+.nav_two{
+    width: 1030px;
+    height: 40px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 0px;
+
+}
+.container_nav_two-nav {
+    margin: 0 auto;
+    float: left;
+}
+.nav_li {
+    display: flex;
+    padding-inline-start: 0px
+    
+}
+.navigation-our {
+    padding: 7px 7px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: #000000;
+    
+}
+.form_nav {
+    padding: 5px 100px ;
+    box-shadow: 0 15px 30px rgb(230, 144, 191);
+    margin-top: 10px;
+    background: #fff;
+}
+
+/* section */   
+.container_osnova 
+{
+    width: 1030px;
+    height: 2150px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+}
+.nav_left 
+{
+    position: relative;
+    width: 200px;
+    height: 2000px;
+    margin-left: 25px;
+    
+}
+.border_section
+{
+    background: #D4C6BD;
+    width: 2px;
+    height: 600px;
+    margin-top: 90px;
+}
+.container_shop 
+{
+    width: 825px;
+    height: 2000px;
+    position: relative;
+    margin-top: 90px;
+}
+.tabl_nav_left {
+    
+    
+}
+.li_nav_left {
+    margin-bottom: 20px;
+}
+.nav_left-text {    
+    padding: 0;
+    text-decoration: none;
+    color: #686767;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+
+}
+
+.container_shop-market
+{
+    width: 775px;
+    height: 1950px;
+    position: relative;
+}
+.cartochka_frie_shop
+{
+    position: relative;
+    width: 775px;
+    height: 330px;
+    margin-bottom: 35px;
+    display: flex;
+}
+.cartoteca_shop
+{
+    width: 225px;
+    height: 330px;
+    position: relative;
+    margin-left: 55px;
+}
+
+.img_cartoteca
+{
+    margin-bottom: 5px;
+}
+.text_cartoteci
+{
+    position: relative;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 500;
+
+
+}
+.cena {
+    position: relative;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    line-height: 0;
+}
+
+
+/* button_next */
+.container_next
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    opacity: 0.8;
+
+}
+.button_next
+{
+    position: relative;
+    width: 256px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.next_click
+{
+    position: relative;
+    margin-right: 10px ;
+    width: 40px;
+    height: 40px;
+}
+
+/* footer */
+
+
+.footer {
+    width: 1100px;
+    height: 600px;
+    position: relative;
+    margin: 0 auto
+}
+.footer_container {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin: 0 auto
+}
+.container_h {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    margin: 0 auto
+}
+.zagal_foot{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Roboto';
+
+}
+.container_text {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+.zagal_one_footer {    
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+.text_one_footer {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    
+}
+.border_footer
+{
+    width: 1100px;
+    border-bottom: 2px solid rgb(238, 115, 172);
+    margin: 0 auto;
+}
